@@ -11,6 +11,7 @@ export default function PracticePage() {
   const [sessions, setSessions] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [filterGrade, setFilterGrade] = useState<number | 'all'>('all')
+  const [userRole, setUserRole] = useState<'student' | 'teacher' | 'admin' | null>(null)
 
   useEffect(() => {
     const fetchExams = async () => {
@@ -18,12 +19,17 @@ export default function PracticePage() {
       try {
         const { data: { user } } = await supabase.auth.getUser()
 
-        // 1. Fetch public exams
+        if (user) {
+          const { data: profile } = await supabase.from('profiles').select('role').eq('id', user.id).single()
+          setUserRole(profile?.role)
+        }
+
+        // 1. Fetch exams (RLS will automatically handle published + own drafts)
         let query = supabase.from('exam_sets').select(`
           *,
           profiles:created_by (full_name),
           exam_set_questions(count)
-        `).eq('is_published', true).order('created_at', { ascending: false })
+        `).order('created_at', { ascending: false })
 
         if (filterGrade !== 'all') {
           query = query.eq('grade', filterGrade)
@@ -70,20 +76,33 @@ export default function PracticePage() {
           <p className="text-sm text-gray-500 mt-1">Hàng trăm đề thi chất lượng cao được biên soạn kỹ lưỡng.</p>
         </div>
 
-        <div className="mt-4 md:mt-0 flex space-x-2">
-          {['all', 10, 11, 12].map((g) => (
-            <button
-              key={g}
-              onClick={() => setFilterGrade(g as any)}
-              className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors border ${
-                filterGrade === g 
-                  ? 'bg-blue-600 text-white border-blue-600 shadow-sm' 
-                  : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
-              }`}
-            >
-              {g === 'all' ? 'Tất cả' : `Lớp ${g}`}
-            </button>
-          ))}
+        <div className="mt-4 md:mt-0 flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3">
+          {(userRole === 'teacher' || userRole === 'admin') && (
+            <div className="flex space-x-2 mr-4 border-r pr-4">
+              <Link href="/practice/manage" className="px-4 py-2 text-sm font-medium rounded-lg text-gray-700 bg-white border border-gray-300 hover:bg-gray-50">
+                Quản lý đề
+              </Link>
+              <Link href="/practice/create" className="px-4 py-2 text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700">
+                Tạo đề mới
+              </Link>
+            </div>
+          )}
+          
+          <div className="flex space-x-2">
+            {['all', 10, 11, 12].map((g) => (
+              <button
+                key={g}
+                onClick={() => setFilterGrade(g as any)}
+                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors border ${
+                  filterGrade === g 
+                    ? 'bg-blue-600 text-white border-blue-600 shadow-sm' 
+                    : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
+                }`}
+              >
+                {g === 'all' ? 'Tất cả' : `Lớp ${g}`}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -106,7 +125,10 @@ export default function PracticePage() {
                 <div className="p-6 flex-1">
                   <div className="flex justify-between items-start mb-4">
                     <span className="px-2.5 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full">Lớp {exam.grade}</span>
-                    {hasAccessCode && <span className="px-2.5 py-1 bg-gray-100 text-gray-700 text-xs font-semibold rounded-full flex items-center"><Lock className="w-3 h-3 mr-1"/> Mã bảo vệ</span>}
+                    <div className="flex space-x-2">
+                      {!exam.is_published && <span className="px-2.5 py-1 bg-yellow-100 text-yellow-800 text-xs font-semibold rounded-full">Bản nháp</span>}
+                      {hasAccessCode && <span className="px-2.5 py-1 bg-gray-100 text-gray-700 text-xs font-semibold rounded-full flex items-center"><Lock className="w-3 h-3 mr-1"/> Mã bảo vệ</span>}
+                    </div>
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">{exam.title}</h3>
                   <p className="text-sm text-gray-500 line-clamp-2 mb-4">{exam.description || 'Không có mô tả'}</p>
