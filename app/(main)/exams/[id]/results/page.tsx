@@ -2,13 +2,14 @@
 
 import React, { useState, useEffect } from 'react'
 import { createClientComponentClient } from '@/lib/supabase/client'
-import { useParams } from 'next/navigation'
+import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Loader2, Users, Target, Clock, AlertTriangle } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer, Cell } from 'recharts'
 
 export default function ExamResultsPage() {
   const params = useParams()
+  const router = useRouter()
   const examId = params.id as string
   const supabase = createClientComponentClient()
   
@@ -169,7 +170,11 @@ export default function ExamResultsPage() {
                 {sessions.length === 0 ? (
                   <tr><td colSpan={5} className="text-center py-8 text-gray-500">Chưa có ai nộp bài.</td></tr>
                 ) : sessions.map((s) => (
-                  <tr key={s.id} className="hover:bg-gray-50 cursor-pointer">
+                  <tr 
+                    key={s.id} 
+                    className="hover:bg-gray-50 cursor-pointer transition-colors"
+                    onClick={() => router.push(`/exams/${examId}/results/${s.id}/grade`)}
+                  >
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {/* supabase query returns an array for profiles when joining if it's 1-to-many, but user_id is PK in profiles so it's an object or array of 1 */}
                       {Array.isArray(s.profiles) ? s.profiles[0]?.full_name : (s.profiles?.full_name || 'Khách')}
