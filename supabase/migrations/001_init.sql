@@ -14,6 +14,11 @@ create table subjects (
   name text
 );
 
+insert into subjects (id, name) values 
+  ('D', 'Đại số / Giải tích'), 
+  ('H', 'Hình học'), 
+  ('C', 'Chuyên đề');
+
 create table chapters (
   id serial primary key,
   grade int,
@@ -251,32 +256,4 @@ create policy "teacher_read_exam_answers"
   );
 
 
--- ── 11. STORAGE BUCKET: QUESTION-IMAGES ───────────────────────
-insert into storage.buckets (id, name, public) 
-values ('question-images', 'question-images', true) 
-on conflict do nothing;
-
-create policy "public_read_question_images"
-  on storage.objects for select
-  using ( bucket_id = 'question-images' );
-
-create policy "teacher_insert_question_images"
-  on storage.objects for insert
-  with check (
-    bucket_id = 'question-images' and
-    exists (select 1 from public.profiles where id = auth.uid() and role in ('teacher', 'admin'))
-  );
-
-create policy "teacher_update_question_images"
-  on storage.objects for update
-  using (
-    bucket_id = 'question-images' and owner = auth.uid() and
-    exists (select 1 from public.profiles where id = auth.uid() and role in ('teacher', 'admin'))
-  );
-
-create policy "teacher_delete_question_images"
-  on storage.objects for delete
-  using (
-    bucket_id = 'question-images' and owner = auth.uid() and
-    exists (select 1 from public.profiles where id = auth.uid() and role in ('teacher', 'admin'))
-  );
+-- Storage bucket will be created manually via Supabase Dashboard
