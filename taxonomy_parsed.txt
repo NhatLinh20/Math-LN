@@ -1,0 +1,239 @@
+ĐẠI SỐ/THỐNG KÊ 10
+Chương 1. Mệnh đề. Tập hợp
+§1. Mệnh đề
+Dạng 1: [0D1?1-1] Xác định mệnh đề, mệnh đề chứa biếnDạng 2: [0D1?1-2] Tính đúng-sai của mệnh đềDạng 3: [0D1?1-3] Phủ định của một mệnh đềDạng 4: [0D1?1-4] Mệnh đề kéo theo, mệnh đề đảo, mệnh đề tương đươngDạng 5: [0D1?1-5] Mệnh đề với mọi, tồn tại (và phủ định chúng)Dạng 6: [0D1?1-6] Áp dụng mệnh đề vào suy luận có lí
+§2. Tập hợp
+Dạng 1: [0D1?2-1] Tập hợp và phần tử của tập hợpDạng 2: [0D1?2-2] Tập hợp con. Hai tập hợp bằng nhauDạng 3: [0D1?2-3] Ký hiệu khoảng, đoạn, nửa khoảng
+§3. Các phép toán tập hợp
+Dạng 1: [0D1?3-1] Giao và hợp của hai tập hợp (rời rạc)Dạng 2: [0D1?3-2] Hiệu và phần bù của hai tập hợp (rời rạc)Dạng 3: [0D1?3-3] Giao và hợp (dùng đoạn, khoảng)Dạng 4: [0D1?3-4] Hiệu và phần bù (dùng đoạn, khoảng)Dạng 5: [0D1?3-5] Toán thực tế ứng dụng của tập hợp
+Chương 2. BPT và hệ BPT bậc nhất hai ẩn
+§1. Bất phương trình bậc nhất hai ẩn
+Dạng 1: [0D2?1-1] Các khái niệm về BPT bậc nhất hai ẩnDạng 2: [0D2?1-2] Miền nghiệm của BPT bậc nhất hai ẩnDạng 3: [0D2?1-3] Toán thực tế về BPT bậc nhất hai ẩn
+§2. Hệ bất phương trình bậc nhất hai ẩn
+Dạng 1: [0D2?2-1] Các khái niệm về Hệ BPT bậc nhất hai ẩnDạng 2: [0D2?2-2] Miền nghiệm của Hệ BPT bậc nhất hai ẩnDạng 3: [0D2?2-3] Toán thực tế về Hệ BPT bậc nhất hai ẩn
+Chương 3. Hàm số bậc hai và đồ thị
+§1. Hàm số và đồ thị
+Dạng 1: [0D3?1-1] Xác định một hàm sốDạng 2: [0D3?1-2] Tập xác định của hàm sốDạng 3: [0D3?1-3] Giá trị của hàm sốDạng 4: [0D3?1-4] Đồ thị của hàm sốDạng 5: [0D3?1-5] Tính đồng biến, nghịch biếnDạng 6: [0D3?1-6] Tính chẵn, lẻDạng 7: [0D3?1-7] Toán thực tế về hàm số
+§2. Hàm số bậc hai
+Dạng 1: [0D3?2-1] Xác định hàm số bậc haiDạng 2: [0D3?2-2] Bảng biến thiên, tính đơn điệu, max, minDạng 3: [0D3?2-3] Đồ thị của hàm số bậc haiDạng 4: [0D3?2-4] Bài toán về sự tương giaoDạng 5: [0D3?2-5] Hàm số chứa dấu giá trị tuyệt đốiDạng 6: [0D3?2-6] Toán thực tế ứng dụng hàm số bậc hai
+Chương 6. Thống kê
+§1. Số gần đúng. Sai số
+Dạng 1: [0D6?1-1] Tính và ước lượng sai số tuyệt đối, tương đốiDạng 2: [0D6?1-2] Tính và xác định độ chính xác của kết quảDạng 3: [0D6?1-3] Quy tròn số gần đúngDạng 4: [0D6?1-4] Viết số gần đúng cho số đúng biết độ chính xác
+§2. Mô tả và biểu diễn dữ liệu trên các bảng và biểu đồ
+Dạng 1: [0D6?2-1] Đọc và phân tích thông tin trên bảng số liệuDạng 2: [0D6?2-2] Đọc và phân tích thông tin trên biểu đồDạng 3: [0D6?2-3] Số liệu bất thường trên bảng số liệuDạng 4: [0D6?2-4] Số liệu bất thường trên biểu đồ
+§3. Các số đặc trưng đo xu thế trung tâm của mẫu số liệu
+Dạng 1: [0D6?3-1] Câu hỏi lý thuyếtDạng 2: [0D6?3-2] Số trung bình cộngDạng 3: [0D6?3-3] Số trung vịDạng 4: [0D6?3-4] Tứ phân vịDạng 5: [0D6?3-5] Mốt
+§4. Các số đặc trưng đo mức độ phân tán của mẫu số liệu
+Dạng 1: [0D6?4-1] Câu hỏi lý thuyếtDạng 2: [0D6?4-2] Khoảng biến thiên, khoảng tứ phân vịDạng 3: [0D6?4-3] Giá trị bất thường của mẫu số liệuDạng 4: [0D6?4-4] Phương sai, độ lệch chuẩn của mẫu số liệu
+Chương 7. Bất phương trình bậc 2 một ẩn
+§1. Dấu của tam thức bậc 2
+Dạng 1: [0D7?1-1] Xác định tam thức bậc 2Dạng 2: [0D7?1-2] Dấu của tam thức bậc 2 và ứng dụngDạng 3: [0D7?1-3] Bài toán xét dấu biết BXD, đồ thịDạng 4: [0D7?1-4] Xét dấu biểu thức dạng tích, thươngDạng 5: [0D7?1-5] Toán thực tế ứng dụng dấu tam thức bậc 2
+§2. Giải bất phương trình bậc 2 một ẩn
+Dạng 1: [0D7?2-1] Bất phương trình bậc 2 và ứng dụngDạng 2: [0D7?2-2] Giải bất phương trình bậc hai biết BXD, đồ thịDạng 3: [0D7?2-3] Bất phương trình dạng tích, thươngDạng 4: [0D7?2-4] Hệ bất phương trình BPT bậc 2Dạng 5: [0D7?2-5] Bất phương trình chứa căn, | · |Dạng 6: [0D7?2-6] Bài toán có tham số mDạng 7: [0D7?2-7] Toán thực tế ứng dụng bất phương trình bậc 2 một ẩn
+§3. Phương trình quy về phương trình bậc hai
+Dạng 1: [0D7?3-1] Phương trình căn √(f(x)) = √(g(x)) và mở rộngDạng 2: [0D7?3-2] Phương trình căn √(f(x)) = g(x) và mở rộngDạng 3: [0D7?3-3] Phương trình căn thức có tham sốDạng 4: [0D7?3-4] Phương trình căn thức (dạng khác)Dạng 5: [0D7?3-5] Phương trình khác quy về phương trình bậc 2Dạng 6: [0D7?3-6] Toán hình, toán thực tế ứng dụng phương trình quy về bậc 2
+Chương 8. Đại số tổ hợp
+§1. Quy tắc cộng-quy tắc nhân
+Dạng 1: [0D8?1-1] Bài toán chỉ sử dụng quy tắc cộngDạng 2: [0D8?1-2] Bài toán chỉ sử dụng quy tắc nhânDạng 3: [0D8?1-3] Bài toán kết hợp quy tắc cộng và quy tắc nhânDạng 4: [0D8?1-4] Bài toán dùng quy tắc bù trừDạng 5: [0D8?1-5] Bài toán đếm số tự nhiênDạng 6: [0D8?1-6] Sơ đồ hình cây
+§2. Hoán vị. Chỉnh hợp. Tổ hợp
+Dạng 1: [0D8?2-1] Lý thuyết tổng hợp về P, C, ADạng 2: [0D8?2-2] Bài toán có biểu thức P, C, ADạng 3: [0D8?2-3] Bài toán đếm số tự nhiênDạng 4: [0D8?2-4] Bài toán chọn ngườiDạng 5: [0D8?2-5] Bài toán chọn đối tượng khácDạng 6: [0D8?2-6] Bài toán có yếu tố hình họcDạng 7: [0D8?2-7] Bài toán xếp chỗ (không tròn, không lặp)Dạng 8: [0D8?2-8] Hoán vị bàn trònDạng 9: [0D8?2-9] Hoán vị lặp
+§3. Nhị thức Newton
+Dạng 1: [0D8?3-1] Các câu hỏi lý thuyết tổng hợpDạng 2: [0D8?3-2] Khai triển một nhị thức NewtonDạng 3: [0D8?3-3] Tìm hệ số, số hạng trong khai triển bằng tam giác PascalDạng 4: [0D8?3-4] Tìm hệ số, số hạng trong khai triểnDạng 5: [0D8?3-5] Tính tổng nhờ khai triển nhị thức NewtonDạng 6: [0D8?3-6] Toán tổ hợp có dùng nhị thức Newton
+Chương 10. Xác suất
+§1. Không gian mẫu và biến cố
+Dạng 1: [0D0?1-1] Các câu hỏi lý thuyết tổng hợpDạng 2: [0D0?1-2] Mô tả không gian mẫu, biến cốDạng 3: [0D0?1-3] Đếm phần tử không gian mẫu, biến cố
+§2. Xác suất của biến cố
+Dạng 1: [0D0?2-1] Các câu hỏi lý thuyết tổng hợpDạng 2: [0D0?2-2] Liên quan xúc xắc, đồng tiền (PP liệt kê)Dạng 3: [0D0?2-3] Liên quan việc sắp xếp chỗDạng 4: [0D0?2-4] Liên quan việc chọn ngườiDạng 5: [0D0?2-5] Liên quan việc chọn đối tượng khácDạng 6: [0D0?2-6] Liên quan hình họcDạng 7: [0D0?2-7] Liên quan việc đếm sốDạng 8: [0D0?2-8] Liên quan bàn tròn hoặc hoán vị lặpDạng 9: [0D0?2-9] Liên quan vấn đề khác
+HÌNH HỌC 10
+Chương 4. Hệ thức lượng trong tam giác
+§1. Giá trị lượng giác của góc (0 − 180∘)
+Dạng 1: [0H4?1-1] Xét dấu của biểu thức lượng giácDạng 2: [0H4?1-2] Tính các giá trị lượng giácDạng 3: [0H4?1-3] Biến đổi, rút gọn biểu thức lượng giác
+§2. Định lý sin và định lý côsin
+Dạng 1: [0H4?2-1] Bài toán chỉ dùng định lý Sin, CôsinDạng 2: [0H4?2-2] Bài toán có dùng công thức diện tíchDạng 3: [0H4?2-3] Biến đổi, rút gọn biểu thứcDạng 4: [0H4?2-4] Nhận dạng tam giác
+§3. Giải tam giác và ứng dụng thực tế
+Dạng 1: [0H4?3-1] Giải tam giácDạng 2: [0H4?3-2] Các ứng dụng thực tế
+Chương 5. Véctơ (chưa xét tọa độ)
+§1. Khái niệm véctơ
+Dạng 1: [0H5?1-1] Xác định một véctơDạng 2: [0H5?1-2] Xét phương và hướng của các véctơDạng 3: [0H5?1-3] Hai véctơ bằng nhauDạng 4: [0H5?1-4] Hai véctơ đối nhauDạng 5: [0H5?1-5] Độ dài của một véctơDạng 6: [0H5?1-6] Toán thực tế áp dụng véctơ
+§2. Tổng và hiệu của hai véctơ
+Dạng 1: [0H5?2-1] Tính toán, thu gọn hiệu các véctơDạng 2: [0H5?2-2] Tính đúng-sai của 1 đẳng thức véctơDạng 3: [0H5?2-3] Tìm điểm nhờ đẳng thức véctơDạng 4: [0H5?2-4] Tính độ dài của véctơ tổng, hiệuDạng 5: [0H5?2-5] Cực trị hình họcDạng 6: [0H5?2-6] Toán thực tế áp dụng tổng hiệu véctơ
+§3. Tích của một số với véctơ
+Dạng 1: [0H5?3-1] Xác định k.v⃗ và độ dài của nóDạng 2: [0H5?3-2] Biến đổi, thu gọn 1 đẳng thức véctơDạng 3: [0H5?3-3] Tìm điểm nhờ đẳng thức véctơDạng 4: [0H5?3-4] Sự cùng phương của 2 véctơ và ứng dụngDạng 5: [0H5?3-5] Phân tích 1 véctơ theo 2 véctơ không cùng phươngDạng 6: [0H5?3-6] Tính độ dài của véctơ tổng, hiệuDạng 7: [0H5?3-7] Tập hợp điểmDạng 8: [0H5?3-8] Cực trị hình họcDạng 9: [0H5?3-9] Toán thực tế áp dụng tích 1 số với véctơ
+§4. Tích vô hướng (chưa xét tọa độ)
+Dạng 1: [0H5?4-1] Tích vô hướng, góc giữa 2 véctơDạng 2: [0H5?4-2] Tìm góc nhờ tích vô hướngDạng 3: [0H5?4-3] Đẳng thức về tích vô hướng hoặc độ dàiDạng 4: [0H5?4-4] Điều kiện vuông gócDạng 5: [0H5?4-5] Các bài toán tìm điểm và tập hợp điểmDạng 6: [0H5?4-6] Cực trị và chứng minh bất đẳng thứcDạng 7: [0H5?4-7] Toán thực tế áp dụng tích vô hướng
+Chương 9. Phương pháp toạ độ trong mặt phẳng (Oxy)
+§1. Toạ độ của véctơ
+Dạng 1: [0H9?1-1] Tọa độ điểm, độ dài đại số của véctơ trên 1 trụcDạng 2: [0H9?1-2] Phép toán véctơ (tổng, hiệu, tích với số) trong OxyDạng 3: [0H9?1-3] Tọa độ điểm và véctơ trên hệ trục OxyDạng 4: [0H9?1-4] Sự cùng phương của 2 véctơ và ứng dụngDạng 5: [0H9?1-5] Phân tích một véctơ theo 2 véctơ không cùng phươngDạng 6: [0H9?1-6] Toán thực tế dùng hệ toạ độ
+§2. Tích vô hướng (theo tọa độ)
+Dạng 1: [0H9?2-1] Tích vô hướng, góc giữa 2 véctơDạng 2: [0H9?2-2] Tìm góc nhờ tích vô hướngDạng 3: [0H9?2-3] Đẳng thức về tích vô hướng hoặc độ dàiDạng 4: [0H9?2-4] Điều kiện vuông gócDạng 5: [0H9?2-5] Các bài toán tìm điểm và tập hợp điểmDạng 6: [0H9?2-6] Cực trị và chứng minh bất đẳng thứcDạng 7: [0H9?2-7] Toán thực tế, liên môn
+§3. Đường thẳng trong mặt phẳng toạ độ
+Dạng 1: [0H9?3-1] Điểm, véctơ, hệ số góc của đường thẳngDạng 2: [0H9?3-2] Phương trình đường thẳngDạng 3: [0H9?3-3] Vị trí tương đối giữa hai đường thẳngDạng 4: [0H9?3-4] Bài toán về góc giữa hai đường thẳngDạng 5: [0H9?3-5] Bài toán về khoảng cáchDạng 6: [0H9?3-6] Bài toán tìm điểmDạng 7: [0H9?3-7] Bài toán dùng cho tam giác, tứ giácDạng 8: [0H9?3-8] Bài toán thực tế, PP tọa độ hóaDạng 9: [0H9?3-9] Bài toán có dùng PT chính tắc
+§4. Đường tròn trong mặt phẳng toạ độ
+Dạng 1: [0H9?4-1] Tìm tâm, bán kính và điều kiện là đường trònDạng 2: [0H9?4-2] Phương trình đường trònDạng 3: [0H9?4-3] Phương trình tiếp tuyến của đường trònDạng 4: [0H9?4-4] Vị trí tương đối liên quan đường trònDạng 5: [0H9?4-5] Toán tổng hợp đường thẳng và đường trònDạng 6: [0H9?4-6] Bài toán dùng cho tam giác, tứ giácDạng 7: [0H9?4-7] Bài toán thực tế, PP tọa độ hóa
+§5. Ba đường conic trong mặt phẳng toạ độ
+Lưu ý. Chuyên đề 3. Ba đường conic gán ID vào bài này.Dạng 1: [0H9?5-1] Xác định các yếu tố của elipDạng 2: [0H9?5-2] Phương trình chính tắc của elipDạng 3: [0H9?5-3] Bài toán điểm trên elipDạng 4: [0H9?5-4] Xác định các yếu tố của hypebolDạng 5: [0H9?5-5] Phương trình chính tắc của hypebolDạng 6: [0H9?5-6] Bài toán điểm trên hypebolDạng 7: [0H9?5-7] Xác định các yếu tố của parabolDạng 8: [0H9?5-8] Phương trình chính tắc của parabolDạng 9: [0H9?5-9] Bài toán điểm trên parabolDạng 0: [0H9?5-0] Bài toán tổng hợp/thực tế, PP tọa độ hóa 3 đường conic
+CHUYÊN ĐỀ 10
+Chuyên đề 1. Hệ phương trình bậc nhất 3 ẩn và ứng dụng
+§1. Hệ phương trình bậc nhất 3 ẩn và ứng dụng
+Dạng 1: [0C1?1-1] Các khái niệm về Hệ PT bậc nhất 3 ẩnDạng 2: [0C1?1-2] Giải Hệ PT bậc nhất 3 ẩnDạng 3: [0C1?1-3] Toán thực tế ứng dụng Hệ PT bậc nhất 3 ẩn
+Chuyên đề 2. Phương pháp quy nạp toán học
+§1. Phương pháp quy nạp toán học
+Dạng 1: [0C2?1-1] Quy nạp chứng minh các đẳng thức/công thức/chia hếtDạng 2: [0C2?1-2] Quy nạp chứng minh các bất đẳng thứcNhị thức Newton. Gán trong Bài chính thức
+Chuyên đề 3. Ba đường conic trong mặt phẳng toạ độ
+Gán trong Bài chính thức
+ĐẠI SỐ & GIẢI TÍCH/THỐNG KÊ 11
+Chương 1. Hàm số lượng giác và phương trình lượng giác
+§1. Góc lượng giác
+Dạng 1: [1D1?1-1] Câu hỏi lý thuyếtDạng 2: [1D1?1-2] Chuyển đổi đơn vị độ và radianDạng 3: [1D1?1-3] Số đo của một góc lượng giácDạng 4: [1D1?1-4] Độ dài của một cung trònDạng 5: [1D1?1-5] Đường tròn lượng giác và ứng dụngDạng 6: [1D1?1-6] Toán thực tế áp dụng góc lượng giác
+§2. Giá trị lượng giác của một góc lượng giác
+Dạng 1: [1D1?2-1] Câu hỏi lý thuyếtDạng 2: [1D1?2-2] Xét dấu giá trị lượng giác. Tính giá trị lượng giác của một gócDạng 3: [1D1?2-3] Biến đổi, rút gọn biểu thức lượng giác; chứng minh đẳng thức lượng giácDạng 4: [1D1?2-4] Các góc lượng giác có liên quan đặc biệt: bù nhau, phụ nhau, đối nhau, hơn kém nhau πDạng 5: [1D1?2-5] Toán thực tế áp dụng giá trị của một góc lượng giác
+§3. Các công thức lượng giác
+Dạng 1: [1D1?3-1] Câu hỏi lý thuyếtDạng 2: [1D1?3-2] Áp dụng công thức cộngDạng 3: [1D1?3-3] Áp dụng công thức nhân đôi - hạ bậcDạng 4: [1D1?3-4] Áp dụng công thức biến đổi tích <-> tổngDạng 5: [1D1?3-5] Kết hợp nhiều công thức lượng giácDạng 6: [1D1?3-6] Nhận dạng tam giácDạng 7: [1D1?3-7] Toán thực tế áp dụng công thức lượng giác
+§4. Hàm số lượng giác và đồ thị
+Dạng 1: [1D1?4-1] Câu hỏi lý thuyếtDạng 2: [1D1?4-2] Tìm tập xác địnhDạng 3: [1D1?4-3] Xét tính đơn điệuDạng 4: [1D1?4-4] Xét tính chẵn, lẻDạng 5: [1D1?4-5] Xét tính tuần hoàn, tìm chu kỳDạng 6: [1D1?4-6] Tìm tập giá trị và min, maxDạng 7: [1D1?4-7] Bảng biến thiên và đồ thịDạng 8: [1D1?4-8] Toán thực tế áp dụng hàm số lượng giác
+§5. Phương trình lượng giác cơ bản
+Dạng 1: [1D1?5-1] Câu hỏi lý thuyết. Khái niệm phương trình tương đươngDạng 2: [1D1?5-2] Điều kiện có nghiệmDạng 3: [1D1?5-3] Phương trình cơ bản dùng RadianDạng 4: [1D1?5-4] Phương trình cơ bản dùng ĐộDạng 5: [1D1?5-5] Phương trình đưa về dạng cơ bảnDạng 6: [1D1?5-6] Toán thực tế áp dụng phương trình lượng giác
+§6. [Giảm] Phương trình lượng giác thường gặp
+Dạng 1: [1D1?6-1] Phương trình bậc n theo một hàm số lượng giácDạng 2: [1D1?6-2] Phương trình đẳng cấp bậc n đối với sinx và cosxDạng 3: [1D1?6-3] Phương trình bậc nhất đối với sinx và cosxDạng 4: [1D1?6-4] Phương trình đối xứng, phản đối xứngDạng 5: [1D1?6-5] Phương trình lượng giác không mẫu mựcDạng 6: [1D1?6-6] Phương trình lượng giác có chứa ẩn ở mẫu sốDạng 7: [1D1?6-7] Phương trình lượng giác có chứa tham sốDạng 8: [1D1?6-8] Toán thực tế áp dụng phương trình lượng giác thường gặp
+Chương 2. Dãy số. Cấp số cộng. Cấp số nhân
+§1. Dãy số
+Dạng 1: [1D2?1-1] Câu hỏi lý thuyếtDạng 2: [1D2?1-2] Số hạng tổng quát, biểu diễn dãy sốDạng 3: [1D2?1-3] Tìm số hạng cụ thể của dãy sốDạng 4: [1D2?1-4] Dãy số tăng, dãy số giảmDạng 5: [1D2?1-5] Dãy số bị chặnDạng 6: [1D2?1-6] Toán thực tế áp dụng dãy số
+§2. Cấp số cộng
+Dạng 1: [1D2?2-1] Câu hỏi lý thuyếtDạng 2: [1D2?2-2] Nhận diện cấp số cộng, công sai dDạng 3: [1D2?2-3] Số hạng tổng quát của cấp số cộngDạng 4: [1D2?2-4] Tìm số hạng cụ thể trong cấp số cộngDạng 5: [1D2?2-5] Điều kiện để dãy số là cấp số cộngDạng 6: [1D2?2-6] Tính tổng của cấp số cộngDạng 7: [1D2?2-7] Toán thực tế áp dụng cấp số cộng
+§3. Cấp số nhân
+Dạng 1: [1D2?3-1] Câu hỏi lý thuyếtDạng 2: [1D2?3-2] Nhận diện cấp số nhân, công bội qDạng 3: [1D2?3-3] Số hạng tổng quát của cấp số nhânDạng 4: [1D2?3-4] Tìm số hạng cụ thể trong cấp số nhânDạng 5: [1D2?3-5] Điều kiện để dãy số là cấp số nhânDạng 6: [1D2?3-6] Tính tổng của cấp số nhânDạng 7: [1D2?3-7] Kết hợp cấp số nhân và cấp số cộngDạng 8: [1D2?3-8] Toán thực tế áp dụng cấp số nhân
+Chương 3. Giới hạn. Hàm số liên tục
+§1. Giới hạn của dãy số
+Dạng 1: [1D3?1-1] Câu hỏi lý thuyếtDạng 2: [1D3?1-2] Phương pháp đặt thừa số chung (lim hữu hạn)Dạng 3: [1D3?1-3] Phương pháp lượng liên hợp (lim hữu hạn)Dạng 4: [1D3?1-4] Giới hạn vô cựcDạng 5: [1D3?1-5] Cấp số nhân lùi vô hạnDạng 6: [1D3?1-6] Toán thực tế áp dụng giới hạn của dãy số
+§2. Giới hạn của hàm số
+Dạng 1: [1D3?2-1] Câu hỏi lý thuyếtDạng 2: [1D3?2-2] Thay số trực tiếpDạng 3: [1D3?2-3] PP đặt thừa số chung, kết quả hữu hạnDạng 4: [1D3?2-4] PP đặt thừa số chung, kết quả vô cựcDạng 5: [1D3?2-5] PP lượng liên hợp, kết quả hữu hạnDạng 6: [1D3?2-6] PP lượng liên hợp, kết quả vô cựcDạng 7: [1D3?2-7] Giới hạn một bênDạng 8: [1D3?2-8] Toán thực tế áp dụng giới hạn của hàm số
+§3. Hàm số liên tục
+Dạng 1: [1D3?3-1] Câu hỏi lý thuyếtDạng 2: [1D3?3-2] Tính liên tục thể hiện qua đồ thịDạng 3: [1D3?3-3] Hàm số liên tục tại một điểmDạng 4: [1D3?3-4] Hàm số liên tục trên khoảng, đoạnDạng 5: [1D3?3-5] Bài toán phương trình có nghiệmDạng 6: [1D3?3-6] Toán thực tế áp dụng hàm số liên tục
+Chương 5. Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm
+§1. Số trung bình và mốt của mẫu số liệu ghép nhóm
+Dạng 1: [1D5?1-1] Câu hỏi lý thuyếtDạng 2: [1D5?1-2] Mẫu số liệu ghép nhómDạng 3: [1D5?1-3] Số trung bìnhDạng 4: [1D5?1-4] Mốt
+§2. Trung vị và tứ phân vị của mẫu số liệu ghép nhóm
+Dạng 1: [1D5?2-1] Câu hỏi lý thuyếtDạng 2: [1D5?2-2] Trung vịDạng 3: [1D5?2-3] Tứ phân vị
+Chương 6. Hàm số mũ và hàm số lôgarít
+§1. Phép tính luỹ thừa
+Dạng 1: [1D6?1-1] Tính giá trị của biểu thức chứa lũy thừaDạng 2: [1D6?1-2] Biến đổi, rút gọn biểu thức chứa lũy thừaDạng 3: [1D6?1-3] Điều kiện cho luỹ thừa, căn thứcDạng 4: [1D6?1-4] So sánh các lũy thừa
+§2. Phép tính lôgarít
+Dạng 1: [1D6?2-1] Tính giá trị biểu thức chứa lôgarítDạng 2: [1D6?2-2] Biến đổi, biểu diễn biểu thức chứa lôgarítDạng 3: [1D6?2-3] Rút gọn, chứng minh biểu thức lôgarítDạng 4: [1D6?2-4] Số e và bài toán lãi képDạng 5: [1D6?2-5] Toán thực tế áp dụng phép tính lôgarít
+§3. Hàm số mũ. Hàm số lôgarít
+Dạng 1: [1D6?3-1] Câu hỏi lý thuyết hàm số lũy thừa, mũ, lôgarítDạng 2: [1D6?3-2] Tập xác định của hàm sốDạng 3: [1D6?3-3] Sự biến thiên và đồ thị của hàm số mũ, lôgarítDạng 4: [1D6?3-4] So sánh các luỹ thừa và lôgarítDạng 5: [1D6?3-5] Toán thực tế áp dụng hàm số mũ, lôgarít
+§4. Phương trình, bất phương trình mũ và lôgarít
+Dạng 1: [1D6?4-1] Điều kiện có nghiệmDạng 2: [1D6?4-2] Phương trình mũ, lôgarít cơ bảnDạng 3: [1D6?4-3] Bất phương trình mũ, lôgarít cơ bảnDạng 4: [1D6?4-4] Phương trình mũ, lôgarít đưa về cùng cơ sốDạng 5: [1D6?4-5] Bất phương trình mũ, lôgarít đưa về cùng cơ sốDạng 6: [1D6?4-6] Toán thực tế áp dụng phương trình mũ, lôgarít
+§5. [Giảm] Các phương pháp giải được giảm tải
+Dạng 1: [1D6?5-1] Phương pháp đặt ẩn phụ cho PT mũ, lôgarítDạng 2: [1D6?5-2] Phương pháp lôgarít hóa, mũ cho PT mũ, lôgarítDạng 3: [1D6?5-3] Phương pháp hàm số, đánh giá cho PT mũ, lôgarítDạng 4: [1D6?5-4] Hệ PT mũ, lôgarítDạng 5: [1D6?5-5] Toán thực tế áp dụng phương trình mũ, lôgarít
+Chương 7. Đạo hàm
+§1. Đạo hàm
+Dạng 1: [1D7?1-1] Tính đạo hàm bằng định nghĩaDạng 2: [1D7?1-2] Số gia hàm số, số gia biến sốDạng 3: [1D7?1-3] Ý nghĩa Hình học của đạo hàmDạng 4: [1D7?1-4] Ý nghĩa Vật lý của đạo hàmDạng 5: [1D7?1-5] Toán thực tế khác áp dụng định nghĩa đạo hàm
+§2. Các quy tắc đạo hàm
+Dạng 1: [1D7?2-1] Tính đạo hàmDạng 2: [1D7?2-2] Đẳng thức có y và y′Dạng 3: [1D7?2-3] Tiếp tuyến tại một điểmDạng 4: [1D7?2-4] Tiếp tuyến biết trước hệ số gócDạng 5: [1D7?2-5] Tiếp tuyến chưa biết tiếp điểm và hệ số gócDạng 6: [1D7?2-6] Giới hạn hàm số lượng giác, hàm số mũ, lôgarítDạng 7: [1D7?2-7] Dùng đạo hàm cho nhị thức NewtonDạng 8: [1D7?2-8] Toán thực tế áp dụng quy tắc đạo hàm
+§3. Đạo hàm cấp hai
+Dạng 1: [1D7?3-1] Tính đạo hàm cấp haiDạng 2: [1D7?3-2] Đẳng thức có y và (y′, y′′)Dạng 3: [1D7?3-3] Toán thực tế và Ý nghĩa Vật lý của đạo hàm cấp hai
+Chương 9. Xác suất
+§1. Biến cố giao và quy tắc nhân xác suất
+Dạng 1: [1D9?1-1] Câu hỏi lí thuyếtDạng 2: [1D9?1-2] Xác định và đếm số phần tử biến cố giaoDạng 3: [1D9?1-3] Công thức nhân xác suất cho 2 biến cố độc lậpDạng 4: [1D9?1-4] Tính xác suất biến cố giao bằng sơ đồ hình cây
+§2. Biến cố hợp và quy tắc cộng xác suất
+Dạng 1: [1D9?2-1] Câu hỏi lí thuyếtDạng 2: [1D9?2-2] Xác định và đếm số phần tử biến cố hợpDạng 3: [1D9?2-3] Quy tắc cộng cho hai biến cố xung khắcDạng 4: [1D9?2-4] Quy tắc cộng cho hai biến cố bất kìDạng 5: [1D9?2-5] Tính xác suất biến cố hợp bằng sơ đồ hình cây
+HÌNH HỌC 11
+Chương 4. Đường thẳng, mặt phẳng. Quan hệ song song trong không gian
+§1. Điểm, đường thẳng và mặt phẳng
+Dạng 1: [1H4?1-1] Câu hỏi lý thuyếtDạng 2: [1H4?1-2] Hình biểu diễn của một hình không gianDạng 3: [1H4?1-3] Tìm giao tuyến của hai mặt phẳngDạng 4: [1H4?1-4] Tìm giao điểm của đường thẳng và mặt phẳngDạng 5: [1H4?1-5] Xác định thiết diệnDạng 6: [1H4?1-6] Ba điểm thẳng hàng, ba đường thẳng đồng quyDạng 7: [1H4?1-7] Toán thực tế áp dụng điểm, đường thẳng và mặt phẳng
+§2. Hai đường thẳng song song
+Dạng 1: [1H4?2-1] Câu hỏi lý thuyếtDạng 2: [1H4?2-2] Hai đường thẳng song songDạng 3: [1H4?2-3] Tìm giao tuyến bằng cách kẻ song songDạng 4: [1H4?2-4] Tìm giao điểm của đường thẳng và mặt phẳngDạng 5: [1H4?2-5] Xác định thiết diện bằng cách kẻ song songDạng 6: [1H4?2-6] Ba điểm thẳng hàngDạng 7: [1H4?2-7] Bài toán quỹ tích và điểm cố địnhDạng 8: [1H4?2-8] Toán thực tế áp dụng hai đường thẳng song song
+§3. Đường thẳng và mặt phẳng song song
+Dạng 1: [1H4?3-1] Câu hỏi lý thuyếtDạng 2: [1H4?3-2] Đường thẳng song song với mặt phẳngDạng 3: [1H4?3-3] Tìm giao tuyến bằng cách kẻ song songDạng 4: [1H4?3-4] Tìm giao điểm của đường thẳng và mặt phẳngDạng 5: [1H4?3-5] Xác định thiết diện bằng cách kẻ song songDạng 6: [1H4?3-6] Ba điểm thẳng hàngDạng 7: [1H4?3-7] Bài toán quỹ tích và điểm cố địnhDạng 8: [1H4?3-8] Toán thực tế áp dụng đường thẳng song song mặt phẳng
+§4. Hai mặt phẳng song song
+Dạng 1: [1H4?4-1] Câu hỏi lý thuyếtDạng 2: [1H4?4-2] Hai mặt phẳng song songDạng 3: [1H4?4-3] Chứng minh đường thẳng song song mặt phẳngDạng 4: [1H4?4-4] Xác định mặt phẳng đi qua một điểm và song song với một mặt phẳngDạng 5: [1H4?4-5] Xác định mặt phẳng chứa đường thẳng (hoặc đi qua hai điểm) và song song với một mặt phẳngDạng 6: [1H4?4-6] Bài toán tổng hợpDạng 7: [1H4?4-7] Toán thực tế áp dụng hai mặt phẳng song song
+§5. Hình lăng trụ và hình hộp (xiên)
+Dạng 1: [1H4?5-1] Câu hỏi lý thuyếtDạng 2: [1H4?5-2] Bài toán về hình lăng trụ (xiên)Dạng 3: [1H4?5-3] Bài toán về hình hộp (xiên)Dạng 4: [1H4?5-4] Toán thực tế áp dụng hình lăng trụ và hình hộp
+§6. Phép chiếu song song
+Dạng 1: [1H4?6-1] Câu hỏi lý thuyếtDạng 2: [1H4?6-2] Hình biểu diễn của một hình không gianDạng 3: [1H4?6-3] Xác định yếu tố song songDạng 4: [1H4?6-4] Xác định phương chiếuDạng 5: [1H4?6-5] Tính tỉ số đoạn thẳng, diện tích qua phép chiếu
+Chương 8. Quan hệ vuông góc trong không gian
+§1. Hai đường thẳng vuông góc
+Dạng 1: [1H8?1-1] Câu hỏi lí thuyếtDạng 2: [1H8?1-2] Xác định hai đường thẳng vuông gócDạng 3: [1H8?1-3] Tìm góc giữa hai đường thẳngDạng 4: [1H8?1-4] Toán thực tế áp dụng hai đường thẳng vuông góc
+§2. Đường thẳng vuông góc với mặt phẳng
+Dạng 1: [1H8?2-1] Câu hỏi lí thuyếtDạng 2: [1H8?2-2] Xác định hoặc chứng minh đường thẳng và mặt phẳng vuông gócDạng 3: [1H8?2-3] Xác định hoặc chứng minh hai đường thẳng vuông gócDạng 4: [1H8?2-4] Dựng mặt phẳng, tìm thiết diệnDạng 5: [1H8?2-5] Hình chiếu vuông góc của một hình trên mặt phẳng (tìm điểm, tìm đoạn thẳng, tính diện tích)Dạng 6: [1H8?2-6] Toán thực tế áp dụng đường thẳng vuông góc mặt phẳng
+§3. Phép chiếu vuông góc
+Dạng 1: [1H8?3-1] Lý thuyết về phép chiếu vuông gócDạng 2: [1H8?3-2] Hình chiếu vuông góc của đa giác trên mặt phẳngDạng 3: [1H8?3-3] Các bài toán thực tế áp dụng phép chiếu vuông góc
+§4. Hai mặt phẳng vuông góc
+Dạng 1: [1H8?4-1] Câu hỏi lí thuyếtDạng 2: [1H8?4-2] Xác định/chứng minh đường thẳng vuông góc mặt phẳng, mặt phẳng vuông gócDạng 3: [1H8?4-3] Xác định góc giữa hai mặt phẳngDạng 4: [1H8?4-4] Dựng mặt phẳng, thiết diệnDạng 5: [1H8?4-5] Nhận dạng và tính toán liên quan các hình thông dụngDạng 6: [1H8?4-6] Bài toán cho trước góc giữa d và (P)Dạng 7: [1H8?4-7] Toán thực tế áp dụng hai mặt phẳng vuông góc
+§5. Khoảng cách
+Dạng 1: [1H8?5-1] Câu hỏi lí thuyếtDạng 2: [1H8?5-2] Khoảng cách giữa 2 điểm, từ 1 điểm đến 1 đường thẳngDạng 3: [1H8?5-3] Khoảng cách từ một điểm đến một mặt phẳngDạng 4: [1H8?5-4] Khoảng cách giữa hai đường thẳng chéo nhauDạng 5: [1H8?5-5] Đường vuông góc chung của hai đường thẳng chéo nhauDạng 6: [1H8?5-6] Toán thực tế áp dụng khoảng cách
+§6. Góc giữa đường thẳng và mặt phẳng. Góc nhị diện
+Dạng 1: [1H8?6-1] Góc giữa đường thẳng và mặt phẳngDạng 2: [1H8?6-2] Góc nhị diện, góc phẳng nhị diệnDạng 3: [1H8?6-3] Góc giữa 2 mặt phẳng, biết trước góc (d,(P))Dạng 4: [1H8?6-4] Khoảng cách giữa điểm, đường, biết trước góc (d,(P))Dạng 5: [1H8?6-5] Khoảng cách giữa điểm - mặt phẳng, biết trước góc (d,(P))Dạng 6: [1H8?6-6] Khoảng cách giữa 2 đường chéo nhau, biết trước góc (d,(P))Dạng 7: [1H8?6-7] Toán thực tế về góc đường thẳng, mặt phẳng, góc nhị diện
+§7. Hình lăng trụ đứng. Hình chóp đều. Thể tích
+Dạng 1: [1H8?7-1] Câu hỏi lí thuyết, công thứcDạng 2: [1H8?7-2] Thể tích khối chóp tam giácDạng 3: [1H8?7-3] Thể tích khối chóp tứ giácDạng 4: [1H8?7-4] Thể tích khối lăng trụ tam giácDạng 5: [1H8?7-5] Thể tích khối lăng trụ tứ giácDạng 6: [1H8?7-6] Thể tích khối chóp cụt và các khối khácDạng 7: [1H8?7-7] Tỉ số thể tíchDạng 8: [1H8?7-8] Ứng dụng thể tích tính góc, khoảng cách,. . .Dạng 9: [1H8?7-9] Toán thực tế hình lăng trụ đứng, chóp đều, thể tích
+CHUYÊN ĐỀ 11
+Chuyên đề 1. Phép biến hình phẳng
+Lưu ý. Chuyên đề 1. Gán ID theo bài này
+§1. Phép biến hình, phép dời hình và hai hình bằng nhau
+Dạng 1: [1C1?1-1] Câu hỏi lý thuyếtDạng 2: [1C1?1-2] Bài toán xác định một phép đặt tương ứng có là phép dời hình hay không?Dạng 3: [1C1?1-3] Xác định ảnh khi thực hiện phép dời hình
+§2. Phép tịnh tiến
+Dạng 1: [1C1?2-1] Câu hỏi lý thuyếtDạng 2: [1C1?2-2] Tìm ảnh hoặc tạo ảnh khi thực hiện phép tịnh tiếnDạng 3: [1C1?2-3] Ứng dụng phép tịnh tiến
+§3. Phép đối xứng trục
+Dạng 1: [1C1?3-1] Câu hỏi lý thuyếtDạng 2: [1C1?3-2] Tìm ảnh hoặc tạo ảnh khi thực hiện phép đối xứng trụcDạng 3: [1C1?3-3] Xác định trục đối xứng và số trục đối xứng của một hìnhDạng 4: [1C1?3-4] Ứng dụng phép đối xứng trục
+§4. Phép đối xứng tâm
+Dạng 1: [1C1?4-1] Câu hỏi lý thuyếtDạng 2: [1C1?4-2] Tìm ảnh, tạo ảnh khi thực hiện phép đối xứng tâmDạng 3: [1C1?4-3] Xác định hình có tâm đối xứngDạng 4: [1C1?4-4] Ứng dụng phép đối xứng tâm
+§5. Phép quay
+Dạng 1: [1C1?5-1] Câu hỏi lý thuyếtDạng 2: [1C1?5-2] Xác định vị trí ảnh của điểm, hình khi thực hiện phép quay cho trướcDạng 3: [1C1?5-3] Tìm tọa độ ảnh của điểm, phương trình của một đường thẳng khi thực hiện phép quayDạng 4: [1C1?5-4] Ứng dụng phép quay
+§6. Phép vị tự
+Dạng 1: [1C1?6-1] Câu hỏi lý thuyếtDạng 2: [1C1?6-2] Xác định ảnh, tạo ảnh khi thực hiện phép vị tựDạng 3: [1C1?6-3] Tìm tâm vị tự của hai đường trònDạng 4: [1C1?6-4] Ứng dụng phép vị tự
+§7. Phép đồng dạng
+Dạng 1: [1C1?7-1] Câu hỏi lý thuyếtDạng 2: [1C1?7-2] Xác định ảnh, tạo ảnh khi thực hiện phép đồng dạng
+Chuyên đề 2. Lý thuyết đồ thị
+§1. Đồ thị
+Dạng 1: [1C2?1-1] Câu hỏi về đỉnh, cạnh của đồ thịDạng 2: [1C2?1-2] Câu hỏi về bậc của đồ thịDạng 3: [1C2?1-3] Câu hỏi tổng hợp
+§2. Đường đi Euler và Harmilton
+Dạng 1: [1C2?2-1] Đường đi EulerDạng 2: [1C2?2-2] Đường đi HarmiltonDạng 3: [1C2?2-3] Câu hỏi tổng hợp
+§3. Bài toán tìm đường đi ngắn nhất
+Dạng 1: [1C2?3-1] Bài toán tìm đường đi ngắn nhấtDạng 2: [1C2?3-2] Tổng hợp
+Chuyên đề 3. Một số yếu tố vẽ kỹ thuật
+§1. Hình biểu diễn của một hình, khối
+Dạng 1: [1C3?1-1] Lý thuyết về phép chiếu và hình biểu diễn song songDạng 2: [1C3?1-2] Lý thuyết về phép chiếu vuông gócDạng 3: [1C3?1-3] Lý thuyết về phép chiếu trục đoDạng 4: [1C3?1-4] Tổng hợp
+§2. Bản vẽ kỹ thuật
+Dạng 1: [1C3?2-1] Lý thuyết cơ bản về bản vẽ kỹ thuậtDạng 2: [1C3?2-2] Phương pháp biểu diễn bản vẽ kỹ thuậtDạng 3: [1C3?2-3] Tổng hợp
+GIẢI TÍCH/THỐNG KÊ 12
+Chương 1. Ứng dụng đạo hàm để khảo sát hàm số
+§1. Sự đồng biến và nghịch biến của hàm số
+Dạng 1: [2D1?1-1] Xét tính đơn điệu của hàm số cho bởi công thứcDạng 2: [2D1?1-2] Xét tính đơn điệu dựa vào bảng biến thiên, đồ thịDạng 3: [2D1?1-3] Tìm tham số m để hàm số đơn điệuDạng 4: [2D1?1-4] Ứng dụng tính đơn điệu để chứng minh bất đẳng thức, giải phương trình, bất phương trình, hệ phương trìnhDạng 5: [2D1?1-5] Toán thực tế ứng dụng sự đồng biến nghịch biến
+§2. Cực trị của hàm số
+Dạng 1: [2D1?2-1] Tìm cực trị của hàm số cho bởi công thứcDạng 2: [2D1?2-2] Tìm cực trị dựa vào BBT, đồ thịDạng 3: [2D1?2-3] Tìm m để hàm số đạt cực trị tại 1 điểm x0 cho trướcDạng 4: [2D1?2-4] Tìm m để hàm số, đồ thị hàm số bậc ba có cực trị thỏa mãn điều kiệnDạng 5: [2D1?2-5] Tìm m để hàm số, đồ thị hàm số trùng phương có cực trị thỏa mãn điều kiệnDạng 6: [2D1?2-6] Tìm m để hàm số, đồ thị hàm số các hàm số khác có cực trị thỏa mãn điều kiệnDạng 7: [2D1?2-7] Toán thực tế ứng dụng cực trị của hàm số
+§3. Giá trị lớn nhất và giá trị nhỏ nhất của hàm số
+Dạng 1: [2D1?3-1] GTLN, GTNN trên đoạn [a; b]Dạng 2: [2D1?3-2] GTLN, GTNN trên khoảngDạng 3: [2D1?3-3] Sử dụng các đánh giá, bất đẳng thức cổ điểnDạng 4: [2D1?3-4] Ứng dụng GTNN, GTLN trong bài toán phương trình, bất phương trình, hệ phương trìnhDạng 5: [2D1?3-5] GTLN, GTNN hàm nhiều biếnDạng 6: [2D1?3-6] Toán thực tế ứng dụng GTLN, GTNN của hàm số
+§4. Đường tiệm cận
+Dạng 1: [2D1?4-1] Bài toán xác định các đường tiệm cận của hàm số (không chứa tham số) hoặc biết BBT, đồ thịDạng 2: [2D1?4-2] Bài toán xác định các đường tiệm cận của hàm số có chứa tham sốDạng 3: [2D1?4-3] Bài toán liên quan đến đồ thị hàm số và các đường tiệm cậnDạng 4: [2D1?4-4] Toán thực tế ứng dụng tiệm cận
+§5. Khảo sát sự biến thiên và vẽ đồ thị hàm số
+Dạng 1: [2D1?5-1] Nhận dạng đồ thịDạng 2: [2D1?5-2] Các phép biến đổi đồ thịDạng 3: [2D1?5-3] Biện luận số giao điểm dựa vào đồ thị, bảng biến thiênDạng 4: [2D1?5-4] Sự tương giao của hai đồ thị (liên quan đến tọa độ giao điểm)Dạng 5: [2D1?5-5] Đồ thị của hàm đạo hàmDạng 6: [2D1?5-6] Phương trình tiếp tuyến của đồ thị hàm sốDạng 7: [2D1?5-7] Điểm đặc biệt của đồ thị hàm sốDạng 8: [2D1?5-8] Toán thực tế ứng dụng khảo sát hàm số
+Chương3. Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm
+§1. Khoảng biến thiên, khoảng tứ phân vị của mẫu số liệu ghép nhóm
+Dạng 1: [2D3?1-1] Công thức lý thuyếtDạng 2: [2D3?1-2] Tìm khoảng biến thiênDạng 3: [2D3?1-3] Tìm khoảng tứ phân vịDạng 4: [2D3?1-4] Câu hỏi tổng hợp
+§2. Phương sai, độ lệch chuẩn của mẫu số liệu ghép nhóm
+Dạng 1: [2D3?2-1] Công thức lý thuyếtDạng 2: [2D3?2-2] Tìm phương sai, độ lệch chuẩnDạng 3: [2D3?2-3] Câu hỏi tổng hợp
+Chương4. Nguyên hàm, tích phân và ứng dụng
+§1. Nguyên hàm
+Dạng 1: [2D4?1-1] Công thức lý thuyếtDạng 2: [2D4?1-2] Nguyên hàm cơ bản đa thức, phân thứcDạng 3: [2D4?1-3] Nguyên hàm cơ bản hàm lượng giácDạng 4: [2D4?1-4] Nguyên hàm cơ bản hàm mũ, luỹ thừaDạng 5: [2D4?1-5] Phương pháp đổi biến số cơ bảnDạng 6: [2D4?1-6] Toán thực tế áp dụng nguyên hàm
+§2. Tích phân
+Dạng 1: [2D4?2-1] Công thức lý thuyếtDạng 2: [2D4?2-2] Tích phân cơ bản đa thức, phân thứcDạng 3: [2D4?2-3] Tích phân cơ bản hàm lượng giácDạng 4: [2D4?2-4] Tích phân cơ bản hàm mũ, luỹ thừaDạng 5: [2D4?2-5] Phương pháp đổi biến số cơ bảnDạng 6: [2D4?2-6] Toán thực tế áp dụng nguyên hàm
+§3. Ứng dụng thực tế và hình học của tích phân
+Dạng 1: [2D4?3-1] Diện tích hình phẳng được giới hạn bởi các đồ thịDạng 2: [2D4?3-2] Bài toán thực tế sử dụng diện tích hình phẳngDạng 3: [2D4?3-3] Thể tích giới hạn bởi các đồ thị (tròn xoay)Dạng 4: [2D4?3-4] Thể tích tính theo mặt cắt S(x)Dạng 5: [2D4?3-5] Bài toán thực tế và ứng dụng thể tích tròn xoay, S(x)
+Chương6. Một số yếu tố xác suất
+§1. Xác suất có điều kiện
+Dạng 1: [2D6?1-1] Công thức lý thuyếtDạng 2: [2D6?1-2] Tính xác suất có điều kiện bằng công thứcDạng 3: [2D6?1-3] Tính xác suất có điều kiện bằng sơ đồ câyDạng 4: [2D6?1-4] Bài toán tổng hợp
+§2. Công thức xác suất toàn phần. Công thức Bayes
+Dạng 1: [2D6?2-1] Công thức lý thuyếtDạng 2: [2D6?2-2] Tính xác suất bằng công thức xác suất toàn phầnDạng 3: [2D6?2-3] Tính xác suất bằng công thức xác suất BayesDạng 4: [2D6?2-4] Bài toán tổng hợp
+HÌNH HỌC 12
+Chương 2. Tọa độ của véc-tơ trong không gian
+§1. Véc-tơ và các phép toán véc-tơ trong không gian (chưa toạ độ hoá)
+Dạng 1: [2H2?1-1] Công thức lý thuyếtDạng 2: [2H2?1-2] Tổng, hiệu, tích một số với véc-tơDạng 3: [2H2?1-3] Tích vô hướng và ứng dụngDạng 4: [2H2?1-4] Toán thực tế áp dụng các phép toán véc-tơ
+§2. Toạ độ của véc-tơ và các công thức
+Dạng 1: [2H2?2-1] Công thức lý thuyếtDạng 2: [2H2?2-2] Tìm tọa độ điểmDạng 3: [2H2?2-3] Tìm tọa độ véc-tơDạng 4: [2H2?2-4] Công thức toạ độ của tích vô hướng và ứng dụngDạng 5: [2H2?2-5] Công thức toạ độ của tích có hướng và ứng dụngDạng 6: [2H2?2-6] Toán thực tế áp dụng các phép toán toạ độ hoá véc-tơ
+Chương 5. Phương trình mặt phẳng, đường thẳng, mặt cầu trong không gian Oxyz
+§1. Phương trình mặt phẳng
+Dạng 1: [2H5?1-1] Câu hỏi lý thuyếtDạng 2: [2H5?1-2] Xác định véc-tơ pháp tuyến, cặp véc-tơ chỉ phươngDạng 3: [2H5?1-3] Viết phương trình tổng quát mặt phẳngDạng 4: [2H5?1-4] Vị trí tương đối giữa hai mặt phẳng (song song, vuông góc)Dạng 5: [2H5?1-5] Khoảng cách điểm tới mặt phẳngDạng 6: [2H5?1-6] Góc giữa hai mặt phẳngDạng 7: [2H5?1-7] Toán thực tế áp dụng phương trình mặt phẳng
+§2. Phương trình đường thẳng trong không gian
+Dạng 1: [2H5?2-1] Câu hỏi lý thuyếtDạng 2: [2H5?2-2] Xác định véc-tơ chỉ phương, cặp véc-tơ pháp tuyếnDạng 3: [2H5?2-3] Viết phương trình tổng quát, chính tắc, tham số đường thẳngDạng 4: [2H5?2-4] Vị trí tương đối giữa hai đường thẳngDạng 5: [2H5?2-5] Vị trí tương đối giữa đường thẳng và mặt phẳngDạng 6: [2H5?2-6] Khoảng cách điểm tới đường thẳngDạng 7: [2H5?2-7] Góc giữa hai đường thẳng, đường thẳng và mặt phẳngDạng 8: [2H5?2-8] Toán thực tế áp dụng phương trình đường thẳng
+§3. Phương trình mặt cầu trong không gian
+Dạng 1: [2H5?3-1] Câu hỏi lý thuyếtDạng 2: [2H5?3-2] Xác định tâm, bán kính, đường kính mặt cầuDạng 3: [2H5?3-3] Viết phương trình tổng quát mặt cầuDạng 4: [2H5?3-4] Toán thực tế áp dụng phương trình mặt cầu
