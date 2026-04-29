@@ -1,5 +1,5 @@
 -- ── 1. PROFILES ───────────────────────────────────────────────
-create table profiles (
+create table if not exists profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   full_name text,
   role text not null default 'student', -- 'student' | 'teacher' | 'admin'
@@ -9,7 +9,7 @@ create table profiles (
 );
 
 -- ── 2. TAXONOMY (Phân loại) ──────────────────────────────────
-create table subjects (
+create table if not exists subjects (
   id text primary key, -- 'D' (Đại số), 'H' (Hình học), 'C' (Chuyên đề)
   name text
 );
@@ -17,9 +17,10 @@ create table subjects (
 insert into subjects (id, name) values 
   ('D', 'Đại số / Giải tích'), 
   ('H', 'Hình học'), 
-  ('C', 'Chuyên đề');
+  ('C', 'Chuyên đề')
+on conflict (id) do nothing;
 
-create table chapters (
+create table if not exists chapters (
   id serial primary key,
   grade int,
   subject_id text references subjects(id),
@@ -27,14 +28,14 @@ create table chapters (
   order_index int
 );
 
-create table lessons (
+create table if not exists lessons (
   id serial primary key,
   chapter_id int references chapters(id) on delete cascade,
   name text,
   order_index int
 );
 
-create table forms (
+create table if not exists forms (
   id serial primary key,
   lesson_id int references lessons(id) on delete cascade,
   name text,
@@ -42,7 +43,7 @@ create table forms (
 );
 
 -- ── 3. QUESTIONS (Ngân hàng câu hỏi) ─────────────────────────
-create table questions (
+create table if not exists questions (
   id uuid primary key default gen_random_uuid(),
   question_code text unique,             -- VD: "10D1N1-1"
   created_by uuid references profiles(id),
@@ -72,14 +73,14 @@ create table questions (
   search_vector tsvector                 -- Phục vụ Full-text search
 );
 
-create index idx_questions_grade on questions(grade);
-create index idx_questions_subject on questions(subject_id);
-create index idx_questions_chapter on questions(chapter_id);
-create index idx_questions_difficulty on questions(difficulty);
-create index search_idx on questions using gin(search_vector);
+create index if not exists idx_questions_grade on questions(grade);
+create index if not exists idx_questions_subject on questions(subject_id);
+create index if not exists idx_questions_chapter on questions(chapter_id);
+create index if not exists idx_questions_difficulty on questions(difficulty);
+create index if not exists search_idx on questions using gin(search_vector);
 
 -- ── 4. EXAM SETS (Đề thi) ─────────────────────────────────────
-create table exam_sets (
+create table if not exists exam_sets (
   id uuid primary key default gen_random_uuid(),
   created_by uuid references profiles(id),
   title text not null,
@@ -92,7 +93,7 @@ create table exam_sets (
 );
 
 -- ── 5. EXAM SET QUESTIONS (Bảng trung gian Đề - Câu hỏi) ──────
-create table exam_set_questions (
+create table if not exists exam_set_questions (
   exam_set_id uuid references exam_sets(id) on delete cascade,
   question_id uuid references questions(id) on delete cascade,
   order_index int not null,              -- Thứ tự câu trong đề
@@ -100,10 +101,10 @@ create table exam_set_questions (
   primary key (exam_set_id, question_id) -- Chống trùng lặp 1 câu 2 lần trong 1 đề
 );
 
-create index idx_esq_exam_set on exam_set_questions(exam_set_id);
+create index if not exists idx_esq_exam_set on exam_set_questions(exam_set_id);
 
 -- ── 6. EXAM SESSIONS (Phiên làm bài của học sinh) ─────────────
-create table exam_sessions (
+create table if not exists exam_sessions (
   id uuid primary key default gen_random_uuid(),
   user_id uuid references auth.users(id),
   exam_set_id uuid references exam_sets(id),
@@ -118,7 +119,7 @@ create table exam_sessions (
 );
 
 -- ── 7. EXAM ANSWERS (Chi tiết từng câu học sinh làm) ──────────
-create table exam_answers (
+create table if not exists exam_answers (
   id uuid primary key default gen_random_uuid(),
   session_id uuid references exam_sessions(id) on delete cascade,
   question_id uuid references questions(id),
@@ -130,7 +131,7 @@ create table exam_answers (
 );
 
 -- ── 8. PUBLIC VIEW (Bảo mật: Ẩn correct_answer) ───────────────
-create view questions_public as
+create or replace view questions_public as
 select
   id, question_code, grade, subject_id, chapter_id, lesson_id, form_id,
   difficulty, question_type, content, image_url, answers, solution, tags
@@ -138,15 +139,16 @@ from questions
 where is_published = true and is_inline = false;
 
 -- ── 9. TRIGGERS ───────────────────────────────────────────────
-create or replace function handle_new_user()
+create or replace function public.handle_new_user()
 returns trigger as $$
 begin
-  insert into profiles (id, full_name, role)
-  values (new.id, new.raw_user_meta_data->>'full_name', 'student');
+  insert into public.profiles (id, full_name, role)
+  values (new.id, coalesce(new.raw_user_meta_data->>'full_name', ''), 'student');
   return new;
 end;
-$$ language plpgsql security definer;
+$$ language plpgsql security definer set search_path = public;
 
+drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure handle_new_user();
@@ -165,25 +167,34 @@ alter table exam_sessions enable row level security;
 alter table exam_answers enable row level security;
 
 -- PROFILES: Mọi người đều có thể đọc profile để lấy tên giáo viên. Chỉ tự update profile của mình.
+drop policy if exists "profiles_read_all" on profiles;
 create policy "profiles_read_all" on profiles for select using (true);
+drop policy if exists "profiles_update_own" on profiles;
 create policy "profiles_update_own" on profiles for update using (id = auth.uid());
 
 -- TAXONOMY: Mọi người đều có thể đọc (public)
+drop policy if exists "taxonomy_subjects_read" on subjects;
 create policy "taxonomy_subjects_read" on subjects for select using (true);
+drop policy if exists "taxonomy_chapters_read" on chapters;
 create policy "taxonomy_chapters_read" on chapters for select using (true);
+drop policy if exists "taxonomy_lessons_read" on lessons;
 create policy "taxonomy_lessons_read" on lessons for select using (true);
+drop policy if exists "taxonomy_forms_read" on forms;
 create policy "taxonomy_forms_read" on forms for select using (true);
 
 -- QUESTIONS: Học sinh đọc câu hỏi public. Teacher CRUD câu hỏi của mình.
+drop policy if exists "questions_read_published" on questions;
 create policy "questions_read_published"
   on questions for select using (is_published = true);
 
+drop policy if exists "questions_insert_teacher" on questions;
 create policy "questions_insert_teacher"
   on questions for insert
   with check (
     exists (select 1 from profiles where id = auth.uid() and role in ('teacher','admin'))
   );
 
+drop policy if exists "questions_update_teacher" on questions;
 create policy "questions_update_teacher"
   on questions for update
   using (
@@ -191,6 +202,7 @@ create policy "questions_update_teacher"
     exists (select 1 from profiles where id = auth.uid() and role in ('teacher','admin'))
   );
 
+drop policy if exists "questions_delete_teacher" on questions;
 create policy "questions_delete_teacher"
   on questions for delete
   using (
@@ -199,9 +211,11 @@ create policy "questions_delete_teacher"
   );
 
 -- EXAM_SETS: Học sinh đọc đề đã xuất bản. Giáo viên CRUD đề của mình.
+drop policy if exists "exam_sets_student_read" on exam_sets;
 create policy "exam_sets_student_read"
   on exam_sets for select using (is_published = true);
 
+drop policy if exists "exam_sets_teacher_crud" on exam_sets;
 create policy "exam_sets_teacher_crud"
   on exam_sets for all
   using (
@@ -210,6 +224,7 @@ create policy "exam_sets_teacher_crud"
   );
 
 -- EXAM_SET_QUESTIONS: Ai thấy đề thi thì thấy bảng nối này. Giáo viên CRUD bảng nối cho đề của mình.
+drop policy if exists "esq_read_if_exam_published" on exam_set_questions;
 create policy "esq_read_if_exam_published"
   on exam_set_questions for select
   using (
@@ -218,6 +233,7 @@ create policy "esq_read_if_exam_published"
     exists (select 1 from exam_sets where id = exam_set_id and created_by = auth.uid())
   );
 
+drop policy if exists "esq_teacher_crud" on exam_set_questions;
 create policy "esq_teacher_crud"
   on exam_set_questions for all
   using (
@@ -225,9 +241,11 @@ create policy "esq_teacher_crud"
   );
 
 -- EXAM_SESSIONS: Học sinh CRUD session của mình. Giáo viên xem session thuộc đề của mình.
+drop policy if exists "exam_sessions_own" on exam_sessions;
 create policy "exam_sessions_own"
   on exam_sessions for all using (user_id = auth.uid());
 
+drop policy if exists "teacher_read_exam_sessions" on exam_sessions;
 create policy "teacher_read_exam_sessions"
   on exam_sessions for select
   using (
@@ -239,12 +257,14 @@ create policy "teacher_read_exam_sessions"
   );
 
 -- EXAM_ANSWERS: Học sinh CRUD câu trả lời thuộc session của mình. Giáo viên xem nếu session thuộc đề của mình.
+drop policy if exists "exam_answers_own" on exam_answers;
 create policy "exam_answers_own"
   on exam_answers for all
   using (
     exists (select 1 from exam_sessions where id = session_id and user_id = auth.uid())
   );
 
+drop policy if exists "teacher_read_exam_answers" on exam_answers;
 create policy "teacher_read_exam_answers"
   on exam_answers for select
   using (
